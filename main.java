@@ -1,6 +1,7 @@
 import java.util.Date;
 
 public class main {
+public class main {
     // Class to represent a single Todo item with a description and a due date
     class TodoItem {
         String description;
@@ -9,6 +10,10 @@ public class main {
         public TodoItem(String description, Date dueDate) {
             this.description = description;
             this.dueDate = dueDate;
+        }
+
+        public TodoItem(String description2) {
+            //TODO Auto-generated constructor stub
         }
 
         public TodoItem(String description2) {
@@ -26,6 +31,7 @@ public class main {
     private int count;
 
     // Constructor
+    public main(int size) {
     public main(int size) {
         todoItems = new TodoItem[size];
         count = 0;
