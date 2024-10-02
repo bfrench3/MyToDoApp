@@ -3,11 +3,11 @@ import java.util.Date;
 public class main {
     // Class to represent a single Todo item with a description and a due date
     class TodoItem {
-        String description;
+        String description2;
         Date dueDate;
 
         public TodoItem(String description, Date dueDate) {
-            this.description = description;
+            this.description2 = description;
             this.dueDate = dueDate;
         }
 
@@ -17,7 +17,7 @@ public class main {
 
         @Override
         public String toString() {
-            return "Task: " + description + " | Due Date: " + dueDate;
+            return "Task: " + description2 + " | Due Date: " + dueDate;
         }
     }
 
