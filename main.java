@@ -17,7 +17,7 @@ public class main {
 
         @Override
         public String toString() {
-            return "thing " + description2 + " | Due Date " + dueDate;
+            return "chore " + description2 + " | Due Date " + dueDate;
         }
     }
 
